@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put Classification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e04658b-1f00-4a34-a614-ef8a4e0bc031</testCaseGuid>
+   <variable>
+      <defaultValue>'CPN'</defaultValue>
+      <description></description>
+      <id>42a63cee-00a8-4ff1-9337-6f1b523dad32</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Complain2'</defaultValue>
+      <description></description>
+      <id>db1397fe-2354-4896-afea-3f24ae412a20</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'dd5c04c9-c082-4984-8946-7587506fec3a'</defaultValue>
+      <description></description>
+      <id>f8d548b5-3eae-455a-8200-8e03408018eb</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
