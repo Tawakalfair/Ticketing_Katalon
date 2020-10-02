@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>http://localhost:8080/roles/</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}/roles/</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -57,7 +57,7 @@
       <name>code</name>
    </variables>
    <variables>
-      <defaultValue>'272f0a49-b202-4f38-93ae-fa3bab417e95'</defaultValue>
+      <defaultValue>'1f87ee98-bcde-497d-a9a0-610435ea1ee7'</defaultValue>
       <description></description>
       <id>6fbabb19-f9a9-4368-a978-40772a2ec457</id>
       <masked>false</masked>

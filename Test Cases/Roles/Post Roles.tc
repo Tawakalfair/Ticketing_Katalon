@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post Roles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b96be92-6861-4032-86b1-7cdca7b260f5</testCaseGuid>
+   <variable>
+      <defaultValue>'Bang Jago'</defaultValue>
+      <description></description>
+      <id>91b41c35-5ead-424f-9adb-aecf50fd700c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'BJ'</defaultValue>
+      <description></description>
+      <id>f64d13fb-c906-436a-bcf4-f1956c903d3e</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

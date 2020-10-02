@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put Roles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27c44a6a-8ad5-49b4-8506-9d57fd87a883</testCaseGuid>
+   <variable>
+      <defaultValue>'Bang Jago sangat'</defaultValue>
+      <description></description>
+      <id>91b41c35-5ead-424f-9adb-aecf50fd700c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'BJ'</defaultValue>
+      <description></description>
+      <id>f64d13fb-c906-436a-bcf4-f1956c903d3e</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'1f87ee98-bcde-497d-a9a0-610435ea1ee7'</defaultValue>
+      <description></description>
+      <id>6fbabb19-f9a9-4368-a978-40772a2ec457</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

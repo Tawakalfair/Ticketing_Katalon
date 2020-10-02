@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post Accounts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>473c9914-8c39-40cb-b9aa-ff5f528a6a44</testCaseGuid>
+   <variable>
+      <defaultValue>'anastasiusmanurung@gmail.com'</defaultValue>
+      <description></description>
+      <id>83966594-f502-4ced-8da0-91584cff0e1f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'gibran'</defaultValue>
+      <description></description>
+      <id>b7079202-386c-4fcd-a53b-9a5c79c4ad78</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234'</defaultValue>
+      <description></description>
+      <id>e7794af1-3544-4253-9365-985c3208ed33</id>
+      <masked>false</masked>
+      <name>nip</name>
+   </variable>
+   <variable>
+      <defaultValue>'AGT'</defaultValue>
+      <description></description>
+      <id>b07a4629-88f1-41ba-803d-69407e2176f1</id>
+      <masked>false</masked>
+      <name>rolecode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Karuhun'</defaultValue>
+      <description></description>
+      <id>a773c2e0-555e-49c7-8e45-639377e114c2</id>
+      <masked>false</masked>
+      <name>companyname</name>
+   </variable>
+   <variable>
+      <defaultValue>'KRHN'</defaultValue>
+      <description></description>
+      <id>b5484ae3-c84e-4712-ac68-ae82f5c31d89</id>
+      <masked>false</masked>
+      <name>companycode</name>
+   </variable>
+</TestCaseEntity>

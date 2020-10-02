@@ -31,13 +31,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>'superadmin'</defaultValue>
-      <description></description>
-      <id>700a77cf-d543-4f59-951b-fed4e0dbac15</id>
-      <masked>false</masked>
-      <name>email</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

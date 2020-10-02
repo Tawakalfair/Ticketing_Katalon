@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJzdXBlcmFkbWluIiwiZXhwIjoxNjAxNDUwMzg5fQ.k1pn5Ze_XCzLgFDiF9l4v5wnLJnN_he9y0u77j5p67xIYZZw3kKGoQ9_UoHsyeUj'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJzdXBlcmFkbWluIiwiZXhwIjoxNjAxNTYzNDY1fQ.9_turEWQgaYZ92Y-DjpE3VWwFR5TtOkMDNS774J8uFY8EG8wp77-CMF-qgv9qaqH'</initValue>
       <name>token</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
