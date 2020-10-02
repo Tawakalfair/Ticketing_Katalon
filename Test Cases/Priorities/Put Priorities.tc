@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put Priorities</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4156bf62-9d0f-4795-a889-10c1cd17060d</testCaseGuid>
+   <variable>
+      <defaultValue>'3e29375e-5050-4d26-a924-c284f0432564'</defaultValue>
+      <description></description>
+      <id>71244244-8cd6-4518-b476-e4a99b048343</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'A124'</defaultValue>
+      <description></description>
+      <id>9f90d28e-b134-4d53-994f-62f2ea7c9fb8</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lama Sekali'</defaultValue>
+      <description></description>
+      <id>424cd14a-13d4-4bb4-b33d-2bc3f877a787</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

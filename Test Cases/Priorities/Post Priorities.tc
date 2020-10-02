@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post Priorities</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0b0dfa7-7cda-485a-92ec-a01de0a493c9</testCaseGuid>
+   <variable>
+      <defaultValue>'A128'</defaultValue>
+      <description></description>
+      <id>53abc893-1381-44e5-88af-df8fbda9ad31</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cepet Banget'</defaultValue>
+      <description></description>
+      <id>a6183f5e-7f4e-4de3-8e30-d60fd65e3103</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

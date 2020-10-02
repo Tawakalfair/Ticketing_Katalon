@@ -9,29 +9,23 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Classifications/Get Classifications'))
+response = WS.sendRequest(findTestObject('Priorities/updatePriorities', [('id') : '3e29375e-5050-4d26-a924-c284f0432564'
+            , ('code') : 'A124', ('name') : 'Lama Sekali']))
 
 WS.verifyResponseStatusCode(response, 200)
 
-countBefore = WS.getElementsCount(response, '')
+response = WS.sendRequest(findTestObject('Priorities/getPrioritiesByCode', [('code') : 'A124']))
 
-response = WS.sendRequest(findTestObject('Classifications/Post Classifications', [('code') : 'CPN', ('name') : 'Complain']))
+WS.verifyElementPropertyValue(response, 'id', id)
 
-WS.verifyResponseStatusCode(response, 201)
+WS.verifyElementPropertyValue(response, 'code', code)
 
-response = WS.sendRequest(findTestObject('Classifications/Get Classifications'))
-
-WS.verifyResponseStatusCode(response, 200)
-
-WS.verifyElementsCount(response, '', countBefore + 1)
-
-WS.verifyElementPropertyValue(response, ('[' + countBefore) + '].code', code)
-
-WS.verifyElementPropertyValue(response, ('[' + countBefore) + '].name', name)
+WS.verifyElementPropertyValue(response, 'name', name)
 
