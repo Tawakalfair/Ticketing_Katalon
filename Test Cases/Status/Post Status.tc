@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>30d9ff3c-6f79-4187-a25b-248841301504</testCaseGuid>
+   <variable>
+      <defaultValue>'OC'</defaultValue>
+      <description></description>
+      <id>700a77cf-d543-4f59-951b-fed4e0dbac15</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'OpenClose'</defaultValue>
+      <description></description>
+      <id>11531376-f4ff-4c7d-8906-3c9e4ef9e063</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
 </TestCaseEntity>

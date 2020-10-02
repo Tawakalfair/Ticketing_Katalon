@@ -19,9 +19,19 @@ response = WS.sendRequest(findTestObject('Status/Get Status'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.getElementsCount(response, 'countBefore')
+countBefore = WS.getElementsCount(response, '')
 
 response = WS.sendRequest(findTestObject('Status/Post Status', [('code') : 'OC', ('name') : 'OpenClose']))
 
 WS.verifyResponseStatusCode(response, 201)
+
+response = WS.sendRequest(findTestObject('Status/Get Status'))
+
+WS.verifyResponseStatusCode(response, 200)
+
+WS.verifyElementsCount(response, '', countBefore + 1)
+
+WS.verifyElementPropertyValue(response, ('[' + countBefore) + '].code', code)
+
+WS.verifyElementPropertyValue(response, ('[' + countBefore) + '].name', name)
 

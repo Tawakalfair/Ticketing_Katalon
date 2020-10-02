@@ -57,7 +57,7 @@
       <name>name</name>
    </variables>
    <variables>
-      <defaultValue>'4918db33-bca7-4488-9fcb-c4cadbe9eabd'</defaultValue>
+      <defaultValue>'61a6c5f1-9878-4d5b-bbf1-77d99b0f19a9'</defaultValue>
       <description></description>
       <id>9d3e4460-4375-4a17-b4fb-ce9290e52467</id>
       <masked>false</masked>

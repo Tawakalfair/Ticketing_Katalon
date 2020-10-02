@@ -32,7 +32,7 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'OP'</defaultValue>
+      <defaultValue>'OC'</defaultValue>
       <description></description>
       <id>700a77cf-d543-4f59-951b-fed4e0dbac15</id>
       <masked>false</masked>
