@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put Companies</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0ccb416-d1f7-4adf-9e88-e2b8fcc07352</testCaseGuid>
+   <variable>
+      <defaultValue>'WRP'</defaultValue>
+      <description></description>
+      <id>31d87383-6734-4b8d-9720-ef954aac5400</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Warkop Covid'</defaultValue>
+      <description></description>
+      <id>4a5ee6de-7336-4973-9e9b-a933fd19c57b</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'54a454bc-69d2-4191-82b4-cb49b2fe3042'</defaultValue>
+      <description></description>
+      <id>906f0bd8-d2b5-4706-b8d9-a6f826f7b2bf</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
