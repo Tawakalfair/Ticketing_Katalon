@@ -46,6 +46,11 @@
 			<type>1</type>
 			<location>C:/Users/Tawakal/AppData/Local/Temp/Katalon/Web Services/kat-885895218016287527.groovy</location>
 		</link>
+		<link>
+			<name>kat-9026692528125307472.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Daimen/AppData/Local/Temp/Katalon/Web Services/kat-9026692528125307472.groovy</location>
+		</link>
 	</linkedResources>
 	<filteredResources>
 		<filter>
@@ -221,6 +226,24 @@
 		</filter>
 		<filter>
 			<id>1601626502786</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1601953609197</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1601953609226</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
