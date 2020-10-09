@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post Client-Products</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5317cd09-21da-44b5-b3ef-2efdd14a02a7</testCaseGuid>
+   <variable>
+      <defaultValue>'BTK'</defaultValue>
+      <description></description>
+      <id>edef345d-d0f9-4f1c-af48-43f7592e69e7</id>
+      <masked>false</masked>
+      <name>codeProduct</name>
+   </variable>
+   <variable>
+      <defaultValue>'f'</defaultValue>
+      <description></description>
+      <id>d26fe61b-6aa1-450f-b721-9f4503f35981</id>
+      <masked>false</masked>
+      <name>codeCompany</name>
+   </variable>
+</TestCaseEntity>

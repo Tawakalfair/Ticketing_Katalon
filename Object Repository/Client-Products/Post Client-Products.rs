@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Post Account</name>
+   <name>Post Client-Products</name>
    <tag></tag>
-   <elementGuidId>06b8154f-b2d7-4d0f-92ed-f1a082501ac1</elementGuidId>
+   <elementGuidId>abda8d6f-1dd8-4a44-a7a6-a67f17f0dd92</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot; : \&quot;${email}\&quot;,\n    \&quot;idUser\&quot; : {\n        \&quot;name\&quot; : \&quot;${username}\&quot;,\n        \&quot;nip\&quot; : \&quot;${nip}\&quot;,\n        \&quot;idRole\&quot; : {\n            \&quot;code\&quot; : \&quot;${rolecode}\&quot;\n        },\n        \&quot;idCompany\&quot; : {\n            \&quot;name\&quot; : \&quot;${companyname}\&quot;,\n          \t\&quot;code\&quot; : \&quot;${companycode}\&quot;\n        }\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n\&quot;idProduct\&quot;:{\n\&quot;code\&quot;:\&quot;${codeProduct}\&quot;\n},\n\&quot;idCompany\&quot;:{\n\&quot;code\&quot;:\&quot;${codeCompany}\&quot;\n}\n  \n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/accounts/</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}/client-products/</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -43,46 +43,18 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'bodongmail'</defaultValue>
+      <defaultValue>'BTK'</defaultValue>
       <description></description>
-      <id>83966594-f502-4ced-8da0-91584cff0e1f</id>
+      <id>edef345d-d0f9-4f1c-af48-43f7592e69e7</id>
       <masked>false</masked>
-      <name>email</name>
+      <name>codeProduct</name>
    </variables>
    <variables>
-      <defaultValue>'gibran'</defaultValue>
+      <defaultValue>'f'</defaultValue>
       <description></description>
-      <id>b7079202-386c-4fcd-a53b-9a5c79c4ad78</id>
+      <id>d26fe61b-6aa1-450f-b721-9f4503f35981</id>
       <masked>false</masked>
-      <name>username</name>
-   </variables>
-   <variables>
-      <defaultValue>'123443'</defaultValue>
-      <description></description>
-      <id>e7794af1-3544-4253-9365-985c3208ed33</id>
-      <masked>false</masked>
-      <name>nip</name>
-   </variables>
-   <variables>
-      <defaultValue>'AGT'</defaultValue>
-      <description></description>
-      <id>b07a4629-88f1-41ba-803d-69407e2176f1</id>
-      <masked>false</masked>
-      <name>rolecode</name>
-   </variables>
-   <variables>
-      <defaultValue>'Burung'</defaultValue>
-      <description></description>
-      <id>a773c2e0-555e-49c7-8e45-639377e114c2</id>
-      <masked>false</masked>
-      <name>companyname</name>
-   </variables>
-   <variables>
-      <defaultValue>'BRG'</defaultValue>
-      <description></description>
-      <id>b5484ae3-c84e-4712-ac68-ae82f5c31d89</id>
-      <masked>false</masked>
-      <name>companycode</name>
+      <name>codeCompany</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

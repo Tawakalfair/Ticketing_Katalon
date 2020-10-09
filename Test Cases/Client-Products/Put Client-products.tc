@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put Client-products</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d046127d-f23d-43a9-b385-2b5f8aebdcb6</testCaseGuid>
+   <variable>
+      <defaultValue>'d420a688-e41f-474c-aed2-71bb0a3bea4b'</defaultValue>
+      <description></description>
+      <id>edef345d-d0f9-4f1c-af48-43f7592e69e7</id>
+      <masked>false</masked>
+      <name>idProduct</name>
+   </variable>
+   <variable>
+      <defaultValue>'8eac4724-c936-45d1-a4a7-080bf89b261a'</defaultValue>
+      <description></description>
+      <id>d26fe61b-6aa1-450f-b721-9f4503f35981</id>
+      <masked>false</masked>
+      <name>idCompany</name>
+   </variable>
+   <variable>
+      <defaultValue>'590120e1-fea5-45c7-8504-9af14591e576'</defaultValue>
+      <description></description>
+      <id>f9618af4-de77-4c51-bc54-03f0af193b9f</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>00e4683c-75b4-4649-a7ac-857ebdd2c8f8</id>
+      <masked>false</masked>
+      <name>ticketUrgent</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>3af51e56-6296-4eb1-b908-9a606e1ed4f7</id>
+      <masked>false</masked>
+      <name>ticketMedium</name>
+   </variable>
+</TestCaseEntity>
